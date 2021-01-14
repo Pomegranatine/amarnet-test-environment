@@ -18,8 +18,8 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light">
 	<div class="container">
-		<a class="navbar-brand"
-			href="index.html"><img class="mainLogo" src="https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/logo-dark.png"></a>
+		<a class="navbar-brand" routerLink="/home"
+			routerLinkActive="selected"><img class="mainLogo" src="https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/logo-dark.png"></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
@@ -58,86 +58,88 @@
 	<div class="container">
 		<div class="row">
 			<div class="footerLogo">
-				<img src="https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/logo-dark.png">
-				</div>
-			</div>
-			<div class="row">
-				<div class="footerMenu">
-					<nav class="navbar navbar-expand-lg navbar-light">
-						<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-							<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-								<li class="nav-item active">
-									<a class="nav-link" href="why-us.html">Яагаад бид гэж?</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="help.html">Тусламж</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="price.html">Төлбөр</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="products.html">Бусад бүтээгдэхүүн</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-			<div class="footerInfo">
-				<p>Холбоо барих:</p>
-				<div class="infoBox">
-					<table class="infoTable">
-						<tr>
-							<td style="width:33%;">
-								<table>
-									<tr>
-										<td style="width:35px;">
-											<i class="fas fa-envelope"></i>
-										</td>
-										<td>
-											<p>hello@lps.mn</p>
-										</td>
-									</tr>
-								</table>
-							</td>
-							<td style="width:33%;">
-								<table>
-									<tr>
-										<td style="width:35px;">
-											<i class="fas fa-mobile-alt"></i>
-										</td>
-										<td>
-											<p>8500 0603<br/>
-											8500 0605<br/>
-											8500 0609</p>
-										</td>
-									</tr>
-								</table>
-							</td>
-							<td style="width:33%;">
-								<table>
-									<tr>
-										<td style="width:35px;">
-											<i class="fa fa-map-marker-alt"></i>
-										</td>
-										<td>
-											<p>УБ, Хан-уул дүүрэг, 15-хороо, Богд Жавзандамба гудамж_ LS плаза, 7
-												давхар, 702 тоот</p>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<hr style="opacity:1; border-top:1px solid #efefef;">
-				<div class="copySocial">
-					<span style="float:left;">
-					<p>© 2021 Amarnet. All rights reserved</p>
-				</span>
-					<span style="float:right;">
-					<div class="socialIcons"><i class="fab fa-facebook-f"></i></div> <div class="socialIcons"><i class="fab fa-twitter"></i></div> <div class="socialIcons"><i class="fab fa-youtube"></i></div>
-				</span>
-				</div>
+				<a routerLink="/home"
+					routerLinkActive="selected"><img src="https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/logo-dark.png">
+          </a>
 			</div>
 		</div>
+		<div class="row">
+			<div class="footerMenu">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+							<li class="nav-item active">
+								<a class="nav-link" href="why-us.html">Яагаад бид гэж?</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="help.html">Тусламж</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="price.html">Төлбөр</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="products.html">Бусад бүтээгдэхүүн</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="footerInfo">
+			<p>Холбоо барих:</p>
+			<div class="infoBox">
+				<table class="infoTable">
+					<tr>
+						<td style="width:33%;">
+							<table>
+								<tr>
+									<td style="width:35px;">
+										<i class="fas fa-envelope"></i>
+									</td>
+									<td>
+										<p>hello@lps.mn</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td style="width:33%;">
+							<table>
+								<tr>
+									<td style="width:35px;">
+										<i class="fas fa-mobile-alt"></i>
+									</td>
+									<td>
+										<p>8500 0603<br/>
+											8500 0605<br/>
+											8500 0609</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td style="width:33%;">
+							<table>
+								<tr>
+									<td style="width:35px;">
+										<i class="fa fa-map-marker-alt"></i>
+									</td>
+									<td>
+										<p>УБ, Хан-уул дүүрэг, 15-хороо, Богд Жавзандамба гудамж_ LS плаза, 7
+											давхар, 702 тоот</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<hr style="opacity:1; border-top:1px solid #efefef;">
+			<div class="copySocial">
+				<span style="float:left;">
+					<p>© 2021 Amarnet. All rights reserved</p>
+				</span>
+				<span style="float:right;">
+					<div class="socialIcons"><i class="fab fa-facebook-f"></i></div> <div class="socialIcons"><i class="fab fa-twitter"></i></div> <div class="socialIcons"><i class="fab fa-youtube"></i></div>
+				</span>
+			</div>
+		</div>
+	</div>
