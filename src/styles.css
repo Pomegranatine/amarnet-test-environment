@@ -1139,6 +1139,10 @@ hr.redLine {
   font-weight: 700;
 }
 
+.container.MainBody {
+    margin-top: 20px;
+}
+
 .mainBody {
   margin-top: 340px;
 }
