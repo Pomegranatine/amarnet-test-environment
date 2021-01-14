@@ -310,7 +310,7 @@
 }
 
 .helpHeader {
-  background: url(../img/help-header.png);
+  background: url(https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/help-header.png);
   object-fit: cover;
   background-size: cover !important;
   position: relative;
@@ -832,14 +832,14 @@ form.registerWrapper {
 }
 
 .eighthBody.registerBG {
-  background: url(../img/register-bg.png);
+  background: url(https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/register-bg.png);
   min-height: 100vh;
   background-size: cover !important;
   position: relative;
 }
 
 .eighthBody.productRegisterBG {
-  background: url(../img/product-register.png);
+  background: url(https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/product-register.pngmg/product-register.png);
   min-height: 100vh;
   background-size: cover !important;
   position: relative;
