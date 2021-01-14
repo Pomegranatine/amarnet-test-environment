@@ -5,9 +5,10 @@ import { FormsModule } from "@angular/forms";
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { HomeComponent } from "./home/home.component";
+import { AppRoutingModule } from "./app-routing.module";
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
   declarations: [AppComponent, HelloComponent, HomeComponent],
   bootstrap: [AppComponent]
 })
