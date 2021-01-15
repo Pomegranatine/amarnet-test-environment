@@ -307,6 +307,7 @@
 .helpPage {
   margin-top: 32px;
   margin-bottom: 80px;
+  font-family: "Montserrat";
 }
 
 .helpHeader {
@@ -338,7 +339,7 @@
   margin-top: 20px;
 }
 
-.container.whyUsmainBody3 {
+.container.whyUsMainBody3 {
   width: 1300px;
 }
 
@@ -448,7 +449,7 @@
 
 .whyUsMainBody2 .infoBox {
   position: relative;
-  margin-left: 143px;
+  margin-left: 287px;
   margin-top: 335px;
   z-index: 5;
 }
@@ -546,9 +547,11 @@
 
 .whyUsMainBody2 .titleLine hr {
   width: 161px;
+  display: inline-block;
   margin-right: 5px;
   border-top: 3px solid #101113;
   opacity: 1;
+  margin-bottom: 7px;
 }
 
 .whyUsMainBody3 .titleLine hr {
@@ -563,12 +566,12 @@
   position: relative;
 }
 
-.whyUsmainBody2 {
-  margin-top: 200px;
+.whyUsMainBody2 {
+  margin-top: 900px;
   position: relative;
 }
 
-.whyUsmainBody3 {
+.whyUsMainBody3 {
   margin-top: 200px;
   position: relative;
   margin-bottom: 180px;
@@ -839,7 +842,7 @@ form.registerWrapper {
 }
 
 .eighthBody.productRegisterBG {
-  background: url(https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/product-register.pngmg/product-register.png);
+  background: url(https://stackblitz.com/files/amarnet-landing-page/github/Pomegranatine/amarnet-test-environment/master/src/assets/img/product-register.png);
   min-height: 100vh;
   background-size: cover !important;
   position: relative;

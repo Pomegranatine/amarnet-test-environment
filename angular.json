@@ -26,7 +26,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/scripts.js"
+              "src/assets/js/scripts.js",
+              "src/assets/js/collapse.js"
             ]
           },
           "configurations": {
@@ -77,7 +78,8 @@
               "styles.css"
             ],
             "scripts": [
-              "src/assets/js/scripts.js"
+              "src/assets/js/scripts.js",
+              "src/assets/js/collapse.js"
               ],
             "assets": [
               "src/favicon.ico",
