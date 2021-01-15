@@ -77,8 +77,8 @@
               "styles.css"
             ],
             "scripts": [
-              "assets/js/scripts.js"
-            ],
+              "src/assets/js/scripts.js"
+              ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
