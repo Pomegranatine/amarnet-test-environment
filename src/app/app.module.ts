@@ -10,10 +10,12 @@ import { WhyUsComponent } from './why-us/why-us.component';
 import { HelpComponent } from './help/help.component';
 import { PriceComponent } from './price/price.component';
 import { ProductsComponent } from './products/products.component';
+import { Services/authService } from './services/auth.service';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   declarations: [AppComponent, HelloComponent, HomeComponent, WhyUsComponent, HelpComponent, PriceComponent, ProductsComponent],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [Services/authService]
 })
 export class AppModule {}
